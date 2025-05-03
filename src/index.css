@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-Base: "Noto Sans", sans-serif;
+  --color-yellow-strong: #FFAB08;
+  --color-orange: #FF7020;
+  --color-black: #000;
+  --color-gray-lght: #F9F9F9;
+  --color-gray-medium: #F2F2F3;
+  --color-gray-txt: #B1B1B1;
+  --breakpoint-max: 1440px;
+}
+
+.custom-clip {
+  clip-path: ellipse(100% 90% at 50% 10%);
+}
+
+.active{
+  background-color: #FFAB08;
+}
