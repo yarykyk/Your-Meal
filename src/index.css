@@ -2,12 +2,12 @@
 
 @theme {
   --font-Base: "Noto Sans", sans-serif;
-  --color-yellow-strong: #FFAB08;
-  --color-orange: #FF7020;
+  --color-yellow-strong: #ffab08;
+  --color-orange: #ff7020;
   --color-black: #000;
-  --color-gray-lght: #F9F9F9;
-  --color-gray-medium: #F2F2F3;
-  --color-gray-txt: #B1B1B1;
+  --color-gray-lght: #f9f9f9;
+  --color-gray-medium: #f2f2f3;
+  --color-gray-txt: #b1b1b1;
   --breakpoint-max: 1440px;
 }
 
@@ -15,6 +15,6 @@
   clip-path: ellipse(100% 90% at 50% 10%);
 }
 
-.active{
-  background-color: #FFAB08;
+.active {
+  background-color: #ffab08;
 }

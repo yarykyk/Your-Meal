@@ -4,122 +4,256 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Your meal</title>
-    <link rel="stylesheet" href="./src/index.css">
+    <link rel="stylesheet" href="./src/index.css" />
   </head>
-  <body class="font-Base bg-gray-lght">
+  <body class="font-Base bg-gray-lght select-none">
+    <header
+      class="w-full h-auto bg-yellow-strong flex flex-col items-center pt-6 px-[10px] pb-[30px] custom-clip"
+    >
+      <img src="./src/img/Logo.svg" alt="" />
+      <div
+        class="flex flex-col justify-center items-center md:flex-row-reverse md:px-[103px] lg:px-[130px]"
+      >
+        <div
+          class="text-center md:text-left items-start md:ml-[35px] lg:ml-[45px] max:ml-[59px]"
+        >
+          <h1
+            class="text-white font-extrabold text-3xl text-center mt-6 md:text-4xl md:text-left lg:text-[50px]"
+          >
+            Only the <span class="text-orange">juiciest burgers!</span>
+          </h1>
+          <p
+            class="text-white font-normal text-xs mt-4 md:mt-[26px] lg:mt-[52px] lg:text-base"
+          >
+            Free shipping from 7.25$
+          </p>
+        </div>
+        <img
+          src="./src/img/burger.png"
+          alt=""
+          class="mt-9 lg:w-[253px] lg:h-[290px]"
+          width="177"
+          height="204"
+        />
+      </div>
+    </header>
+
     <main>
-      <section class="w-full h-auto bg-yellow-strong  flex flex-col items-center pt-6 px-[10px] pb-[30px] custom-clip">
-        <img src="./src/img/Logo.svg" alt="">
-        <div class="flex flex-col justify-center items-center md:flex-row-reverse md:px-[103px] lg:px-[130px]">
-          <div class="text-center md:text-left items-start md:ml-[35px] lg:ml-[45px] max:ml-[59px]">
-            <h1 class="text-white font-extrabold text-3xl text-center mt-6 md:text-4xl md:text-left lg:text-[50px]"> 
-              Only the <span class="text-orange">juiciest burgers!</span>
-            </h1>
-            <p class="text-white font-normal text-xs mt-4 md:mt-[26px] lg:mt-[52px] lg:text-base">Free shipping from 7.25$
-            </p>
-          </div>
-          <img src="./src/img/burger.png" alt="" class="mt-9 lg:w-[253px] lg:h-[290px]" width="177" height="204">
+      <section
+        class="my-[30px] h-[30px] lg:h-10 w-auto flex gap-2 md:gap-3 lg:gap-6 overflow-x-auto overflow-y-hidden text-xs font-normal lg:text-base ml-[10px] max:justify-center [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none'] md:ml-[64px]"
+      >
+        <div
+          class="flex flex-row h-[30px] w-[97px] lg:w-[126px] lg:h-10 gap-2 rounded-[50px] bg-white items-center p-2 active"
+        >
+          <img src="./src/img/food/Burger.svg" alt="" width="24" height="24" />
+          <a href="#" class="pr-8"> Burger </a>
+        </div>
+        <div
+          class="flex flex-row h-[30px] w-[97px] lg:w-[126px] lg:h-10 gap-2 rounded-[50px] bg-white items-center p-2"
+        >
+          <img src="./src/img/food/byblik.svg" alt="" width="24" height="24" />
+          <a href="#" class="pr-8"> Snacks </a>
+        </div>
+        <div
+          class="flex flex-row h-[30px] w-[99px] lg:w-[126px] lg:h-10 gap-2 rounded-[50px] bg-white items-center p-2 whitespace-nowrap"
+        >
+          <img
+            src="./src/img/food/hoy-dogs.svg"
+            alt=""
+            width="24"
+            height="24"
+          />
+          <a href="#" class="pr-8"> Hot-dogs </a>
+        </div>
+        <div
+          class="flex flex-row h-[30px] w-[97px] lg:w-[126px] lg:h-10 gap-2 rounded-[50px] bg-white items-center p-2"
+        >
+          <img src="./src/img/food/kombo.svg" alt="" width="24" height="24" />
+          <a href="#" class="pr-8"> Combo </a>
+        </div>
+        <div
+          class="flex flex-row h-[30px] w-[97px] lg:w-[126px] lg:h-10 gap-2 rounded-[50px] bg-white items-center p-2"
+        >
+          <img src="./src/img/food/shaurma.svg" alt="" width="24" height="24" />
+          <a href="#" class="pr-8"> Shawrma </a>
+        </div>
+        <div
+          class="flex flex-row h-[30px] w-[97px] lg:w-[126px] lg:h-10 gap-2 rounded-[50px] bg-white items-center p-2"
+        >
+          <img src="./src/img/food/pizza.svg" alt="" width="24" height="24" />
+          <a href="#" class="pr-8"> Pizza </a>
+        </div>
+        <div
+          class="flex flex-row h-[30px] w-[97px] lg:w-[126px] lg:h-10 gap-2 rounded-[50px] bg-white items-center p-2"
+        >
+          <img src="./src/img/food/lapsha.svg" alt="" width="24" height="24" />
+          <a href="#" class="pr-8"> Wok </a>
+        </div>
+        <div
+          class="flex flex-row h-[30px] w-[97px] lg:w-[126px] lg:h-10 gap-2 rounded-[50px] bg-white items-center p-2"
+        >
+          <img src="./src/img/food/donat.svg" alt="" width="24" height="24" />
+          <a href="#" class="pr-8"> Desserts </a>
+        </div>
+        <div
+          class="flex flex-row h-[30px] w-[97px] lg:w-[126px] lg:h-10 gap-2 rounded-[50px] bg-white items-center p-2"
+        >
+          <img src="./src/img/food/souces.svg" alt="" width="24" height="24" />
+          <a href="#" class="pr-8"> Sauces </a>
         </div>
       </section>
 
-      <section class="my-[30px] h-[30px] lg:h-10 w-auto flex gap-2 md:gap-3 lg:gap-6 overflow-x-auto overflow-y-hidden text-xs font-normal lg:text-base ml-[10px] max:justify-center [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none'] md:ml-[64px]">
-        <div class="flex flex-row h-[30px] w-[97px] lg:w-[126px] lg:h-10 gap-2 rounded-[50px] bg-white items-center p-2 active">
-          <img src="./src/img/food/Burger.svg" alt="" width="24" height="24">
-          <a href="#" class="pr-8">
-            Burger  
-          </a>
-        </div>
-        <div class="flex flex-row h-[30px] w-[97px] lg:w-[126px] lg:h-10 gap-2 rounded-[50px] bg-white items-center p-2">
-          <img src="./src/img/food/byblik.svg" alt="" width="24" height="24">
-          <a href="#" class="pr-8">
-            Snacks
-          </a>
-        </div>        
-        <div class="flex flex-row h-[30px] w-[99px] lg:w-[126px] lg:h-10 gap-2 rounded-[50px] bg-white items-center p-2 whitespace-nowrap">
-          <img src="./src/img/food/hoy-dogs.svg" alt="" width="24" height="24">
-          <a href="#" class="pr-8">
-            Hot-dogs
-          </a>
-        </div>        
-        <div class="flex flex-row h-[30px] w-[97px] lg:w-[126px] lg:h-10 gap-2 rounded-[50px] bg-white items-center p-2">
-          <img src="./src/img/food/kombo.svg" alt="" width="24" height="24">
-          <a href="#" class="pr-8">
-            Combo
-          </a>
-        </div>        
-        <div class="flex flex-row h-[30px] w-[97px] lg:w-[126px] lg:h-10 gap-2 rounded-[50px] bg-white items-center p-2 ">
-          <img src="./src/img/food/shaurma.svg" alt="" width="24" height="24">
-          <a href="#" class="pr-8">
-            Shawrma
-          </a>
-        </div>        
-        <div class="flex flex-row h-[30px] w-[97px] lg:w-[126px] lg:h-10 gap-2 rounded-[50px] bg-white items-center p-2">
-          <img src="./src/img/food/pizza.svg" alt="" width="24" height="24">
-          <a href="#" class="pr-8">
-            Pizza
-          </a>
-        </div>        
-        <div class="flex flex-row h-[30px] w-[97px] lg:w-[126px] lg:h-10 gap-2 rounded-[50px] bg-white items-center p-2">
-          <img src="./src/img/food/lapsha.svg" alt="" width="24" height="24">
-          <a href="#" class="pr-8">
-            Wok
-          </a>
-        </div>     
-        <div class="flex flex-row h-[30px] w-[97px] lg:w-[126px] lg:h-10 gap-2 rounded-[50px] bg-white items-center p-2">
-          <img src="./src/img/food/donat.svg" alt="" width="24" height="24">
-          <a href="#" class="pr-8">
-            Desserts
-          </a>
-        </div>        
-        <div class="flex flex-row h-[30px] w-[97px] lg:w-[126px] lg:h-10 gap-2 rounded-[50px] bg-white items-center p-2">
-          <img src="./src/img/food/souces.svg" alt="" width="24" height="24">
-          <a href="#" class="pr-8">
-            Sauces
-          </a>
-        </div>     
-      </section>
-
-      <section class="mx-[10px] flex flex-col gap-[30px] lg:flex-row justify-center items-start">
-        <div class="flex items-center bg-white rounded-3 h-12 px-[10px] md:w-[145px] lg:w-[300px] lg:h-[73px] md:self-start md:ml-[64px] lg:ml-8 lg:mt-[62px]">
+      <section
+        class="mx-[10px] flex flex-col gap-[30px] lg:flex-row justify-center items-start md:items-center lg:mx-8 mb-20"
+      >
+        <div
+          class="flex items-center w-full bg-white rounded-3 h-12 px-[10px] md:w-[145px] lg:w-[300px] lg:h-[73px] md:ml-[64px] md:self-start lg:ml-8 lg:mt-[62px]"
+        >
           <h1 class="text-base font-semibold lg:text-2xl">Basket</h1>
-          <div class="ml-auto w-8 h-4 lg:w-[41px] lg:h-[20px] rounded-[6px] bg-gray-medium text-[10px] lg:text-xs font-normal text-center leading-[20px]">0</div>
+          <div
+            class="ml-auto w-8 h-4 lg:w-[41px] lg:h-[20px] rounded-[6px] bg-gray-medium text-[10px] lg:text-xs font-normal text-center leading-[20px]"
+          >
+            0
+          </div>
         </div>
-      
-        <div class="lg:basis-[662px]">
-          <h1 class="text-[24px] font-semibold ml-[10px] mb-4">Burgers</h1>
-          <div class="flex flex-wrap gap-[10px] md:gap-[20px] lg:gap-[30px] justify-center lg:justify-start md:justify-self-center">
-            <div class="p-2 lg:w-[276px] lg:h-[421px] w-[145px] h-[243px] bg-white lg:p-3 rounded-[12px] lg:rounded-[18px]">
-              <img src="/src/img/food/Real_Burger.png" alt="" class="rounded-lg lg:w-[276px] lg:h-[220px]" width="137" height="120">
-              <h1 class="text-base font-semibold mt-[10px] lg:text-2xl lg:mt-4">8.33$</h1>
+
+        <div class="lg:basis-[662px] lg:flex-wrap">
+          <h1
+            class="text-[28px] lg:text-[40px] font-semibold ml-[10px] mb-4 max:ml-12"
+          >
+            Burgers
+          </h1>
+          <div
+            class="flex flex-wrap gap-[10px] md:gap-[20px] lg:gap-[30px] justify-center lg:justify-center md:justify-self-center max:w-[960px]"
+          >
+            <div
+              class="p-2 lg:w-[276px] lg:h-[421px] w-[145px] h-[243px] bg-white lg:p-3 rounded-[12px] lg:rounded-[18px]"
+            >
+              <img
+                src="/src/img/food/Real_Burger.png"
+                alt=""
+                class="rounded-lg lg:w-[276px] lg:h-[220px]"
+                width="137"
+                height="120"
+              />
+              <h1 class="text-base font-semibold mt-[10px] lg:text-2xl lg:mt-4">
+                8.33$
+              </h1>
               <p class="text-xs font-normal mt-2 lg:text-base">Meat Bomb</p>
-              <p class="text-gray-txt text-xs font-semibold mt-4 mb-[7px] lg:text-base lg:mt-[29px] lg:mb-2">520g</p>
-              <button class="w-full bg-gray-medium h-[30px] lg:h-10 rounded-lg text-xs font-normal lg:text-base">Add</button>
+              <p
+                class="text-gray-txt text-xs font-semibold mt-4 mb-[7px] lg:text-base lg:mt-[29px] lg:mb-2"
+              >
+                520g
+              </p>
+              <button
+                class="w-full bg-gray-medium h-[30px] lg:h-10 rounded-lg text-xs font-normal lg:text-base hover:bg-gray-200"
+              >
+                Add
+              </button>
             </div>
-            <div class="p-2 lg:w-[276px] lg:h-[421px] w-[145px] h-[243px] bg-white lg:p-3 rounded-[12px] lg:rounded-[18px]">
-              <img src="/src/img/food/Real_Burger.png" alt="" class="rounded-lg lg:w-[276px] lg:h-[220px]" width="137" height="120">
-              <h1 class="text-base font-semibold mt-[10px] lg:text-2xl lg:mt-4">8.33$</h1>
+            <div
+              class="p-2 lg:w-[276px] lg:h-[421px] w-[145px] h-[243px] bg-white lg:p-3 rounded-[12px] lg:rounded-[18px]"
+            >
+              <img
+                src="/src/img/food/Real_Burger.png"
+                alt=""
+                class="rounded-lg lg:w-[276px] lg:h-[220px]"
+                width="137"
+                height="120"
+              />
+              <h1 class="text-base font-semibold mt-[10px] lg:text-2xl lg:mt-4">
+                8.33$
+              </h1>
               <p class="text-xs font-normal mt-2 lg:text-base">Meat Bomb</p>
-              <p class="text-gray-txt text-xs font-semibold mt-4 mb-[7px] lg:text-base lg:mt-[29px] lg:mb-2">520g</p>
-              <button class="w-full bg-gray-medium h-[30px] lg:h-10 rounded-lg text-xs font-normal lg:text-base">Add</button>
-            </div>            
-            <div class="p-2 lg:w-[276px] lg:h-[421px] w-[145px] h-[243px] bg-white lg:p-3 rounded-[12px] lg:rounded-[18px]">
-              <img src="/src/img/food/Real_Burger.png" alt="" class="rounded-lg lg:w-[276px] lg:h-[220px]" width="137" height="120">
-              <h1 class="text-base font-semibold mt-[10px] lg:text-2xl lg:mt-4">8.33$</h1>
+              <p
+                class="text-gray-txt text-xs font-semibold mt-4 mb-[7px] lg:text-base lg:mt-[29px] lg:mb-2"
+              >
+                520g
+              </p>
+              <button
+                class="w-full bg-gray-medium h-[30px] lg:h-10 rounded-lg text-xs font-normal lg:text-base hover:bg-gray-200"
+              >
+                Add
+              </button>
+            </div>
+            <div
+              class="p-2 lg:w-[276px] lg:h-[421px] w-[145px] h-[243px] bg-white lg:p-3 rounded-[12px] lg:rounded-[18px]"
+            >
+              <img
+                src="/src/img/food/Real_Burger.png"
+                alt=""
+                class="rounded-lg lg:w-[276px] lg:h-[220px]"
+                width="137"
+                height="120"
+              />
+              <h1 class="text-base font-semibold mt-[10px] lg:text-2xl lg:mt-4">
+                8.33$
+              </h1>
               <p class="text-xs font-normal mt-2 lg:text-base">Meat Bomb</p>
-              <p class="text-gray-txt text-xs font-semibold mt-4 mb-[7px] lg:text-base lg:mt-[29px] lg:mb-2">520g</p>
-              <button class="w-full bg-gray-medium h-[30px] lg:h-10 rounded-lg text-xs font-normal lg:text-base">Add</button>
-            </div>            
-            <div class="p-2 lg:w-[276px] lg:h-[421px] w-[145px] h-[243px] bg-white lg:p-3 rounded-[12px] lg:rounded-[18px]">
-              <img src="/src/img/food/Real_Burger.png" alt="" class="rounded-lg lg:w-[276px] lg:h-[220px]" width="137" height="120">
-              <h1 class="text-base font-semibold mt-[10px] lg:text-2xl lg:mt-4">8.33$</h1>
+              <p
+                class="text-gray-txt text-xs font-semibold mt-4 mb-[7px] lg:text-base lg:mt-[29px] lg:mb-2"
+              >
+                520g
+              </p>
+              <button
+                class="w-full bg-gray-medium h-[30px] lg:h-10 rounded-lg text-xs font-normal lg:text-base hover:bg-gray-200"
+              >
+                Add
+              </button>
+            </div>
+            <div
+              class="p-2 lg:w-[276px] lg:h-[421px] w-[145px] h-[243px] bg-white lg:p-3 rounded-[12px] lg:rounded-[18px]"
+            >
+              <img
+                src="/src/img/food/Real_Burger.png"
+                alt=""
+                class="rounded-lg lg:w-[276px] lg:h-[220px]"
+                width="137"
+                height="120"
+              />
+              <h1 class="text-base font-semibold mt-[10px] lg:text-2xl lg:mt-4">
+                8.33$
+              </h1>
               <p class="text-xs font-normal mt-2 lg:text-base">Meat Bomb</p>
-              <p class="text-gray-txt text-xs font-semibold mt-4 mb-[7px] lg:text-base lg:mt-[29px] lg:mb-2">520g</p>
-              <button class="w-full bg-gray-medium h-[30px] lg:h-10 rounded-lg text-xs font-normal lg:text-base">Add</button>
+              <p
+                class="text-gray-txt text-xs font-semibold mt-4 mb-[7px] lg:text-base lg:mt-[29px] lg:mb-2"
+              >
+                520g
+              </p>
+              <button
+                class="w-full bg-gray-medium h-[30px] lg:h-10 rounded-lg text-xs font-normal lg:text-base hover:bg-gray-200"
+              >
+                Add
+              </button>
             </div>
           </div>
         </div>
       </section>
-      
     </main>
+
+    <footer class="bg-white flex flex-col mx-[10px] py-[21px] md:flex-row md:justify-between md:pt-[52px] md:pb-[39px] md:mx-8 max:px-[75px]">
+      <div>
+        <img src="src/img/Logo-orange.svg" alt="" width="199" height="44" />
+        <p class="text-xs font-normal hidden md:block md:mt-[59px]">
+          &copy; YouMeal, 2025 <br />Design: Yarykyk
+        </p>
+      </div>
+      <div class="mt-6 md:flex md:gap-[50px] md:items-start md:mt-0">
+        <div>
+          <h1 class="text-lg font-normal max:text-2xl">Order number</h1>
+          <p class="text-xs font-normal mt-2 md:mt-6 md:text-base select-text">+9(999)999-99-99</p>
+        </div>
+        <div class="mt-6 md:mt-0">
+          <h1 class="text-lg font-normal max:text-2xl">We are on social networks</h1>
+          <div class="flex mt-2 md:mt-[22px]">
+            <img src="src/img/VK.svg" alt="" width="36" height="36" class="mr-4"/>
+            <img src="src/img/Telegram.svg" alt="" width="36" height="36" />
+          </div>
+        </div>
+        <p class="text-xs font-normal md:hidden mt-[34px]">
+          &copy; YouMeal, 2025 <br />Design: Yarykyk
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
