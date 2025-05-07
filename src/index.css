@@ -17,4 +17,8 @@
 
 .active {
   background-color: #ffab08;
+} 
+
+.AS:disabled{
+  background: red;
 }
