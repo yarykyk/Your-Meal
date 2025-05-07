@@ -1,10 +1,10 @@
-import React, { useState, useEffect, use } from 'react'
+import React, { useState, useEffect} from 'react'
 import realBurger from '../img/food/Real_Burger.png'
 import Burger_card from './Burger_card'
 import Nachos from '../img/RealFood/Nachos.png'
 import Hot_dog from '../img/RealFood/Hot-dog.png'
 
-const Burgers_part = ({state, setState}) => {
+const Burgers_part = ({state}) => {
     // console.log(state);
     const [foodName, setfoodName] = useState('');
     const [price, setPrice] = useState(0);
