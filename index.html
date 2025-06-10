@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Your meal</title>
     <link rel="stylesheet" href="./src/index.css" />
+    <script src="https://kit.fontawesome.com/34a3860714.js" crossorigin="anonymous"></script>
   </head>
   <body class="font-Base bg-gray-lght select-none">
 
@@ -22,8 +23,8 @@
 
 
 
-<!-- 
-    <header class="w-full h-auto bg-yellow-strong flex flex-col items-center pt-6 px-[10px] pb-[30px] custom-clip">
+
+    <!-- <header class="w-full h-auto bg-yellow-strong flex flex-col items-center pt-6 px-[10px] pb-[30px] custom-clip">
       <img src="./src/img/Logo.svg" alt="" />
       <div
         class="flex flex-col justify-center items-center md:flex-row-reverse md:px-[103px] lg:px-[130px]"
@@ -54,7 +55,7 @@
 
     <main>
       <section
-        class="my-[30px] h-[30px] lg:h-10 w-auto flex gap-2 md:gap-3 lg:gap-6 overflow-x-auto overflow-y-hidden text-xs font-normal lg:text-base ml-[10px] max:justify-center [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none'] md:ml-[64px]"
+        class="my-[30px] h-[30px] lg:h-10 w-auto flex gap-2 md:gap-3 lg:gap-6 overflow-x-auto overflow-y-hidden text-xs font-normal lg:text-base ml-[10px] max:justify-center [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none'] md:ml-[64px] mb-[108px] lg:mb-[30px]"
       >
         <div
           class="flex flex-row h-[30px] w-[97px] lg:w-[126px] lg:h-10 gap-2 rounded-[50px] bg-white items-center p-2 active"
@@ -118,22 +119,85 @@
       </section>
 
       <section
-        class="mx-[10px] flex flex-col gap-[30px] lg:flex-row justify-center items-start md:items-center lg:mx-8 mb-20"
+        class=" flex flex-col gap-[30px] lg:flex-row justify-center items-center md:items-center lg:mx-8 mb-20"
       >
         <div
-          class="flex items-center w-full bg-white rounded-3 h-auto py-4 lg:py-5 px-[10px] md:w-[195px] lg:w-[300px] lg:h-auto md:ml-[64px] md:self-start lg:ml-8 lg:mt-[62px]"
+          style="box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);"
+          class="flex flex-col absolute top-135 items-center w-[300px] justify-self-center bg-white rounded-[12px] h-auto py-4 lg:py-5 px-[10px] md:w-[300px] md:top-105 lg:w-[300px] lg:h-auto md:ml-[64px] md:self-start lg:ml-8 lg:mt-[62px] lg:static"
         >
-        <div>
-          <h1 class="text-base font-semibold lg:text-2xl">Basket</h1>
+          <div class="flex items-center w-full">
+            <h1 class="text-base font-semibold lg:text-2xl">Basket</h1>
+            <div
+              class="ml-auto w-8 h-4 lg:w-[41px] lg:h-[20px] rounded-[6px] bg-gray-medium text-[10px] lg:text-xs font-normal text-center leading-[20px]"
+            >
+              0
+            </div>
+          </div>
+          <div class="flex flex-col w-100% mx-[10px] h-auto w-full mt-3">
+            <div class="flex justify-between items-center border-y border-y-gray-medium py-[11px]">
+              <div class="flex">
+                <img src="./src/img/Burgers/MeatBomb.png" alt="" width="64" class="rounded-lg">
+                <div class="ml-[6px]">
+                  <p class="text-xs font-normal mb-px">Meat Bomb</p>
+                  <p class="text-xs text-gray-txt font-normal mb-[6px]">512g</p>
+                  <p class="text-xs font-normal">$10</p>
+                </div>
+              </div>
+              <div class="w-[74px] h-[30px] lg:h-10 lg:w-[84px] bg-gray-medium rounded-lg text-xs font-normal lg:text-base flex justify-around items-center">
+                <button type="button">-</button>
+                <p>1</p>
+                <button type="button">+</button>
+              </div>
+            </div>
+            <div class="flex justify-between items-center border-y border-y-gray-medium py-[11px]">
+              <div class="flex">
+                <img src="./src/img/Burgers/MeatBomb.png" alt="" width="64" class="rounded-lg">
+                <div class="ml-[6px]">
+                  <p class="text-xs font-normal mb-px">Meat Bomb</p>
+                  <p class="text-xs text-gray-txt font-normal mb-[6px]">512g</p>
+                  <p class="text-xs font-normal">$10</p>
+                </div>
+              </div>
+              <div class="w-[74px] h-[30px] lg:h-10 lg:w-[84px] bg-gray-medium rounded-lg text-xs font-normal lg:text-base flex justify-around items-center">
+                <button type="button">-</button>
+                <p>1</p>
+                <button type="button">+</button>
+              </div>
+            </div>
+            <div class="flex justify-between items-center border-y border-y-gray-medium py-[11px]">
+              <div class="flex">
+                <img src="./src/img/Burgers/MeatBomb.png" alt="" width="64" class="rounded-lg">
+                <div class="ml-[6px]">
+                  <p class="text-xs font-normal mb-px">Meat Bomb</p>
+                  <p class="text-xs text-gray-txt font-normal mb-[6px]">512g</p>
+                  <p class="text-xs font-normal">$10</p>
+                </div>
+              </div>
+              <div class="w-[74px] h-[30px] lg:h-10 lg:w-[84px] bg-gray-medium rounded-lg text-xs font-normal lg:text-base flex justify-around items-center">
+                <button type="button">-</button>
+                <p>1</p>
+                <button type="button">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="w-full mt-[13px]">
+            <div class="flex justify-between text-xs font-normal mb-[19px]">
+              <p class="md:text-base">Total</p>
+              <p class="md:text-base">$100</p>
+            </div>
+            <button class="w-full h-[30px] lg:h-10 rounded-lg bg-orange text-white text-xs lg:text-base font-normal mb-2">
+              Place an order
+            </button>
+            <div class="flex justify-between items-center">
+              <p class="flex text-xs font-normal items-center gap-2">
+                <img src="/src/img/food/delivery.svg" alt="" width="24" height="24" >Free shipping
+              </p>
+              <button class="text-xs font-normal text-gray-txt lg:hidden">Collapse</button>
+            </div>
+          </div> 
           <p class="text-xs font-normal mt-2 lg:mt-3 max:text-base empty">
             It's empty here for now :(
           </p>
-        </div>
-          <div
-            class="ml-auto w-8 h-4 lg:w-[41px] lg:h-[20px] rounded-[6px] bg-gray-medium text-[10px] lg:text-xs font-normal text-center leading-[20px]"
-          >
-            0
-          </div>
         </div>
 
         <div class="lg:basis-[662px] lg:flex-wrap">
@@ -149,7 +213,7 @@
               class="p-2 lg:w-[276px] lg:h-[421px] w-[145px] h-[243px] bg-white lg:p-3 rounded-[12px] lg:rounded-[18px]"
             >
               <img
-                src="/src/img/food/Real_Burger.png"
+                src="./src/img/Burgers/MeatBomb.png"
                 alt=""
                 class="rounded-lg lg:w-[276px] lg:h-[220px]"
                 width="137"
@@ -174,7 +238,7 @@
               class="p-2 lg:w-[276px] lg:h-[421px] w-[145px] h-[243px] bg-white lg:p-3 rounded-[12px] lg:rounded-[18px]"
             >
               <img
-                src="/src/img/food/Real_Burger.png"
+                src="./src/img/Burgers/MeatBomb.png"
                 alt=""
                 class="rounded-lg lg:w-[276px] lg:h-[220px]"
                 width="137"
@@ -199,7 +263,7 @@
               class="p-2 lg:w-[276px] lg:h-[421px] w-[145px] h-[243px] bg-white lg:p-3 rounded-[12px] lg:rounded-[18px]"
             >
               <img
-                src="/src/img/food/Real_Burger.png"
+                src="./src/img/Burgers/MeatBomb.png"
                 alt=""
                 class="rounded-lg lg:w-[276px] lg:h-[220px]"
                 width="137"
@@ -224,7 +288,7 @@
               class="p-2 lg:w-[276px] lg:h-[421px] w-[145px] h-[243px] bg-white lg:p-3 rounded-[12px] lg:rounded-[18px]"
             >
               <img
-                src="/src/img/food/Real_Burger.png"
+                src="./src/img/Burgers/MeatBomb.png"
                 alt=""
                 class="rounded-lg lg:w-[276px] lg:h-[220px]"
                 width="137"
@@ -274,7 +338,6 @@
         </p>
       </div>
     </footer> -->
-
     <script type="module" src="./src/main.jsx"></script>
   </body>
 </html>

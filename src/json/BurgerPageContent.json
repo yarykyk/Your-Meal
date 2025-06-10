@@ -1,0 +1,38 @@
+[
+   {
+      "src": "MeatBomb.png",
+      "price":"$8.33",
+      "name":"Meat Bomb",
+      "weight":"520g"
+   },
+   {
+      "src":"SuperCheesy.png",
+      "price":"$6.82",
+      "name":"Super Cheesy",
+      "weight":"512g"
+   },
+   {
+      "src":"Satisfying.png",
+      "price":"$7.93",
+      "name":"Satisfying",
+      "weight":"580g"
+   },
+   {
+      "src":"HeavyBlow.png",
+      "price":"$5.95",
+      "name":"Heavy Blow",
+      "weight":"470g"
+   },
+   {
+      "src":"TimelessClassic.png",
+      "price":"$5.58",
+      "name":"TimelessClassic",
+      "weight":"450g"
+   },
+   {
+      "src":"Italian.png",
+      "price":"$6.95",
+      "name":"Italian",
+      "weight":"510g"
+   }
+]
